@@ -5,7 +5,6 @@ import { socials } from '../constants';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import Link from 'next/link';
 
 const Footer = () => (
   <motion.footer
@@ -21,16 +20,16 @@ const Footer = () => (
           Enter ProjectVirgilio
         </h4>
         <a href="https://github.com/Retr0100/ProjectVirgil/">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/information.svg"
-            alt="information"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Enter ProjectVirgilio
-          </span>
-        </button>
+          <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <img
+              src="/information.svg"
+              alt="information"
+              className="w-[24px] h-[24px] object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">
+              Enter ProjectVirgilio
+            </span>
+          </button>
         </a>
       </div>
 
@@ -47,13 +46,13 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href={social.link} target="_blank">
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
+              <a href={social.link} rel="noreferrer" target="_blank">
+                <img
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                />
               </a>
             ))}
           </div>
