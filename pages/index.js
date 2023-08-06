@@ -1,6 +1,7 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
+
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
@@ -23,5 +24,6 @@ const Home = () => (
     <Footer />
   </div>
 );
+
 
 export default Home;
