@@ -1,6 +1,9 @@
 # Virgil WebSite 🌐
 
-![Virgil-AI](https://sloc.xyz/github/Retr0100/VirgilWebSite/) ㅤㅤ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/Retr0100/VirgilWebSite)ㅤㅤ ![Website](https://img.shields.io/website/https/projectvirgil.net?up_message=online&down_message=offline)
+![VirgilWebSite](https://img.shields.io/badge/7%2C5k-7%2C5k?style=for-the-badge&logo=visualstudiocode&label=Lines%20of%20code&labelColor=282a3&color=%23164773)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/Retr0100/VirgilWebSite?style=for-the-badge&logo=github&labelColor=%23282a3&color=%231B7F79)
+![Website](https://img.shields.io/website/https/projectvirgil.net?up_message=online&down_message=offline&style=for-the-badge&logo=railway&labelColor=%23282a3&color=%23a6da95)
+![GitHub repo size](https://img.shields.io/github/repo-size/Retr0100/VirgilWebSite?style=for-the-badge&logo=github&labelColor=%23282a3&color=%23bd93f9)
 
 
 ## Simple description 📋
