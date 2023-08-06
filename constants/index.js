@@ -1,12 +1,12 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/ImmagineWin.png',
+    imgUrl: '/ImmagineWin.jpg',
     title: 'Windows',
   },
   {
     id: 'world-2',
-    imgUrl: '/imgLinux.png',
+    imgUrl: '/imgLinux.jpg',
     title: 'Linux',
   },
 ];
