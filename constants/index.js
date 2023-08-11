@@ -12,7 +12,7 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Download the file and the app from github',
+  'Download the file',
   'Obtain the your API easly',
   'Launch and explore its possibilities ',
 ];
@@ -55,11 +55,6 @@ export const insights = [
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-    link: 'https://twitter.com/R3tr0_fj'
-  },
   {
     name: 'github',
     url: '/github.svg',
