@@ -6,14 +6,14 @@ import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
-  const [file, setFile] = useState('');
+  const [linkDownload, setLinkDownload] = useState('');
   useEffect(() => {
     // Verifica se stai eseguendo il codice lato client (browser)
     if (typeof window !== 'undefined') {
       if (window.innerWidth <= 768) {
-        setFile('/VirgilAppV1.0.1a.apk');
+        setLinkDownload("/VirgilAppV2.0.1.apk")
       } else {
-        setFile('/VirgilAI.zip');
+        setLinkDownload("https://github.com/Retr0100/ProjectVirgil/archive/refs/heads/master.zip")
       }
     }
   }, []);
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
-        <a href={file} download>
+        <a href={linkDownload} download>
           <img
             src="/download.svg"
             alt="search"
