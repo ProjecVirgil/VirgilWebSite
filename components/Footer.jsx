@@ -19,7 +19,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter ProjectVirgilio
         </h4>
-        <a href="https://github.com/Retr0100/ProjectVirgil/">
+        <a href="https://github.com/users/Retr0100/projects/3">
           <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
             <img
               src="/information.svg"

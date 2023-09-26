@@ -35,22 +35,22 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/imgAI1.jpg',
-    link: "https://github.com/Retr0100/ProjectVirgil",
+    link: 'https://github.com/Retr0100/VirgilAI',
     title: 'Find out more about Virgil and how it works',
     subtitle:
         'Virgilio is a desktop application developed with python that aims to emulate a kind of alexa with the difference of being open-source and with minimal installation',
   },
   {
     imgUrl: '/imgAI2.jpg',
-    link: "https://github.com/Retr0100/VirgilApp",
+    link: 'https://github.com/Retr0100/VirgilApp',
     title: 'Find out more about VirgilApp and how it works',
-    subtitle:'The VirgilApp is an android-only mobile application that can set up and configure your virgil from anywhere in the world and at any time of day ',
+    subtitle: 'The VirgilApp is an android-only mobile application that can set up and configure your virgil from anywhere in the world and at any time of day ',
   },
   {
     imgUrl: '/imgAI3.jpg',
-    link: "https://github.com/Retr0100/VirgilAPI",
+    link: 'https://github.com/Retr0100/VirgilAPI',
     title: 'Find out more about VirgilAPI and how it works',
-    subtitle:'The VirgilAPI allows communication between your Virgil and your mobile app for now its power is limited to this but who knows maybe one day you can use it to develop your Virgil',
+    subtitle: 'The VirgilAPI allows communication between your Virgil and your mobile app for now its power is limited to this but who knows maybe one day you can use it to develop your Virgil',
   },
 ];
 
