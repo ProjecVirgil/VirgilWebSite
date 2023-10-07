@@ -13,7 +13,7 @@ const Navbar = () => {
       if (window.innerWidth <= 768) {
         setLinkDownload('/VirgilAppV2.0.1.apk');
       } else {
-        setLinkDownload('https://github.com/Retr0100/ProjectVirgil/archive/refs/heads/master.zip');
+        setLinkDownload('https://github.com/Retr0100/VirgilAI/archive/refs/heads/master.zip');
       }
     }
   }, []);
