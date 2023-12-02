@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
+  color:#DDDDDF
 }
 
 .gradient-01 {
@@ -82,7 +83,7 @@
   left: 0px;
   top: 0px;
 
-  background: #7b4cfd;
+  background: #1D1E27;
   filter: blur(175px);
 }
 
@@ -93,6 +94,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #7b4cfd;
+  background: #1D1E27;
   filter: blur(150px);
 }

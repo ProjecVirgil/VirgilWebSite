@@ -22,12 +22,12 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Virgil</span> is a new
+        <span className="font-extrabold">Virgil</span> is a new
         is a virtual assistant created and designed to be a free, convenient , portable, 
         and above all open-source version of Alexa or Google Home In summary, 
         this open-source virtual assistant stands as an innovative,{' '}
-        <span className="font-extrabold text-white">
-        free and user-controlled alternative
+        <span className="font-extrabold">
+          free and user-controlled alternative
         </span>{' '}
         proprietary solutions offered by large companies.{' '}
         By bringing together convenience, portability, and attention to privacy, we 
@@ -35,7 +35,7 @@ const About = () => (
         their technology interactions, enabling them to take full advantage of 
         the benefits of 
       {' '}
-        <span className="font-extrabold text-white"> artificial intelligence </span>
+        <span className="font-extrabold"> artificial intelligence </span>
         in a safe and personalized way.
       </motion.p>
 
