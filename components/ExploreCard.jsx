@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 
+import Image from 'next/image';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
@@ -13,11 +14,14 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+
+    <Image
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
+      fill
     />
+
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px]  absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}

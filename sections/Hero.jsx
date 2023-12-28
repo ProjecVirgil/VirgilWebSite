@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
@@ -32,11 +32,15 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
-        <img
-          src="/cover.webp"
-          alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-        />
+        <div className="w-full sm:h-[500px] h-[350px]">
+          <Image
+            src="/cover.webp"
+            className="object-cover rounded-tl-[140px] z-10 relative"
+            alt="hero_cover"
+            fill
+          />
+        </div>
+
       </motion.div>
     </motion.div>
   </section>
