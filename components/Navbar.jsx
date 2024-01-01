@@ -8,6 +8,7 @@ import { navVariants } from '../utils/motion';
 const Navbar = () => {
   const [linkDownload, setLinkDownload] = useState('');
   useEffect(() => {
+    // Verifica se stai eseguendo il codice lato client (browser)
     if (typeof window !== 'undefined') {
       if (window.innerWidth <= 768) {
         setLinkDownload('/VirgilAppV2.0.1.apk');
