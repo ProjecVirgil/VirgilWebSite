@@ -19,16 +19,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/media.svg',
-    title: 'New mediaplayer youtube',
+    imgUrl: 'https://img.icons8.com/ios/50/installing-updates--v1.png',
+    title: 'Released the CATONE update',
     subtitle:
-        'I added a new functioning yt mediaplayer integreted with Virgil',
+        'A great new update has been released that introduces a lot of improvements to the project structure and makes it more user friendly',
   },
   {
-    imgUrl: '/console.svg',
-    title: 'New interface',
+    imgUrl: 'https://img.icons8.com/ios/50/iphone13.png',
+    title: 'New App Design',
     subtitle:
-        'In the latest update, your eyes are narrow,Now you only have to interact with a single console ',
+        'Now the app has a new face come and discover it',
   },
 ];
 
